@@ -7,6 +7,8 @@
   content: none !important;
 }
 
+input [type="radio"] { display:none; }
+
 /* restyle radio items */
 .radio-group .custom-control {
   padding-left: 0;
