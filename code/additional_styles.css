@@ -7,7 +7,10 @@
   content: none !important;
 }
 
-input [type="radio"] { display:none; }
+input[type="radio"] {
+  display:none; 
+  visibility:hidden !important;
+}
 
 /* restyle radio items */
 .radio-group .custom-control {
