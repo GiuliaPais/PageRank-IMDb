@@ -1,10 +1,10 @@
 /* Turn off existing buttons */
 .radio-group .custom-control-input ~ .custom-control-label::before {
-  content: none;
+  content: none !important;
 }
 
 .radio-group .custom-radio .custom-control-input ~ .custom-control-label::after {
-  content: none;
+  content: none !important;
 }
 
 /* restyle radio items */
