@@ -7,23 +7,18 @@
   content: none !important;
 }
 
-input[type="radio"] {
-  display:none; 
-  visibility:hidden !important;
-}
-
 /* restyle radio items */
 .radio-group .custom-control {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 .radio-group .btn-group > .custom-control:not(:last-child) > .btn {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .radio-group .btn-group > .custom-control:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  margin-left: -1px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin-left: -1px !important;
 }
