@@ -1,26 +1,5 @@
-/* Turn off existing buttons */
-.radio-group .custom-control-input ~ .custom-control-label::before {
-  content: none !important;
-  visibility: hidden !important;
-}
-
-.radio-group .custom-radio .custom-control-input ~ .custom-control-label::after {
-  content: none !important;
-  visibility: hidden !important;
-}
-
-/* restyle radio items */
-.radio-group .custom-control {
-  padding-left: 0 !important;
-}
-
-.radio-group .btn-group > .custom-control:not(:last-child) > .btn {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-}
-
-.radio-group .btn-group > .custom-control:not(:first-child) > .btn {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-  margin-left: -1px !important;
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
 }
